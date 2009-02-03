@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagramdata>
+    <dia:attribute name="background">
+      <dia:color val="#ffffff"/>
+    </dia:attribute>
+    <dia:attribute name="pagebreak">
+      <dia:color val="#000099"/>
+    </dia:attribute>
+    <dia:attribute name="paper">
+      <dia:composite type="paper">
+        <dia:attribute name="name">
+          <dia:string>#A4#</dia:string>
+        </dia:attribute>
+        <dia:attribute name="tmargin">
+          <dia:real val="2.8222000598907471"/>
+        </dia:attribute>
+        <dia:attribute name="bmargin">
+          <dia:real val="2.8222000598907471"/>
+        </dia:attribute>
+        <dia:attribute name="lmargin">
+          <dia:real val="2.8222000598907471"/>
+        </dia:attribute>
+        <dia:attribute name="rmargin">
+          <dia:real val="2.8222000598907471"/>
+        </dia:attribute>
+        <dia:attribute name="is_portrait">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="scaling">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="fitto">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="grid">
+      <dia:composite type="grid">
+        <dia:attribute name="width_x">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="width_y">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_x">
+          <dia:int val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_y">
+          <dia:int val="1"/>
+        </dia:attribute>
+        <dia:composite type="color"/>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="color">
+      <dia:color val="#d8e5e5"/>
+    </dia:attribute>
+    <dia:attribute name="guides">
+      <dia:composite type="guides">
+        <dia:attribute name="hguides"/>
+        <dia:attribute name="vguides"/>
+      </dia:composite>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer name="Background" visible="true">
+    <dia:object type="Standard - Box" version="0" id="O0">
+      <dia:attribute name="obj_pos">
+        <dia:point val="8.8,-9.3"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="8.75,-9.35;27.05,-2.55"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="8.8,-9.3"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="18.200000000000003"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="6.6999999999999993"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#ffe7bb"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="1.1754943508222875e-38"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Box" version="0" id="O1">
+      <dia:attribute name="obj_pos">
+        <dia:point val="1.8,-0.875"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="1.75,-0.925;33.25,12.775"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="1.8,-0.875"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="31.400000000000002"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="13.600000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#ffe7bb"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="1.1754943508222875e-38"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="UML - Actor" version="0" id="O2">
+      <dia:attribute name="obj_pos">
+        <dia:point val="5.7,7.75"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="4.4,5;7,10.6741"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="4.45,5.05"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="2.5"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="5.4000000000000004"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#ffa500"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#User#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="5.7,10.1925"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:group>
+      <dia:object type="Cisco - Tablet" version="0" id="O3">
+        <dia:attribute name="obj_pos">
+          <dia:point val="16.15,7.5625"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="16.1056,7.5325;20.1821,9.57249"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="16.15,7.5625"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="4.0026959368380508"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#ffa500"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O4">
+        <dia:attribute name="obj_pos">
+          <dia:point val="13.475,11.3375"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="13.475,10.795;24.195,11.735"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#PIC24 Board with LCD+Touch Screen#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="13.475,11.3375"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:object type="Standard - Text" version="1" id="O5">
+      <dia:attribute name="obj_pos">
+        <dia:point val="17.225,6.1875"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="17.225,5.7875;17.225,6.9875"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="17.225,6.1875"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="3"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:group>
+      <dia:object type="Cisco - PC Adapter Card" version="0" id="O6">
+        <dia:attribute name="obj_pos">
+          <dia:point val="27.6,5.9125"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="27.5987,5.91135;28.9724,7.913"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="27.6,5.9125"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1.3711283185840701"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.9999999999999993"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#ffa500"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O7">
+        <dia:attribute name="obj_pos">
+          <dia:point val="27.15,8.6625"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="27.15,8.10294;30.5246,9.09413"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#GPS Device#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="27.15,8.6625"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:group>
+      <dia:object type="Cisco - File Server" version="0" id="O8">
+        <dia:attribute name="obj_pos">
+          <dia:point val="15.65,-0.140069"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="15.6488,-0.141282;17.3932,2.66628"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="15.65,-0.140069"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="1.7420225822287727"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="2.8051383399209566"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#ffa500"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O9">
+        <dia:attribute name="obj_pos">
+          <dia:point val="17.9,1.5625"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="17.9,1.02;24.4825,1.96"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#Interfacing web server#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="17.9,1.5625"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:object type="UML - Association" version="1" id="O10">
+      <dia:attribute name="obj_pos">
+        <dia:point val="16.625,-0.140069"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="16.5094,-5.10892;18.5094,1.45993"/>
+      </dia:attribute>
+      <dia:attribute name="orth_points">
+        <dia:point val="16.625,-0.140069"/>
+        <dia:point val="16.625,-0.1"/>
+        <dia:point val="16.5594,-0.1"/>
+        <dia:point val="16.5594,-5.05892"/>
+      </dia:attribute>
+      <dia:attribute name="orth_orient">
+        <dia:enum val="1"/>
+        <dia:enum val="0"/>
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="autorouting">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>##</dia:string>
+      </dia:attribute>
+      <dia:attribute name="direction">
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="ends">
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1...*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O8" connection="2"/>
+        <dia:connection handle="1" to="O17" connection="3"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="UML - Association" version="1" id="O11">
+      <dia:attribute name="obj_pos">
+        <dia:point val="17.1845,2.66507"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="17.1345,2.61507;19.148,6.625"/>
+      </dia:attribute>
+      <dia:attribute name="orth_points">
+        <dia:point val="17.1845,2.66507"/>
+        <dia:point val="17.1845,4.24503"/>
+        <dia:point val="17.198,4.24503"/>
+        <dia:point val="17.198,5.825"/>
+      </dia:attribute>
+      <dia:attribute name="orth_orient">
+        <dia:enum val="1"/>
+        <dia:enum val="0"/>
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="autorouting">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>##</dia:string>
+      </dia:attribute>
+      <dia:attribute name="direction">
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="ends">
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1...*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O8" connection="4"/>
+        <dia:connection handle="1" to="O14" connection="0"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="UML - Association" version="1" id="O12">
+      <dia:attribute name="obj_pos">
+        <dia:point val="6.95,7.75"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="6.9,7.0675;17.4645,9.1625"/>
+      </dia:attribute>
+      <dia:attribute name="orth_points">
+        <dia:point val="6.95,7.75"/>
+        <dia:point val="11,7.75"/>
+        <dia:point val="11,7.775"/>
+        <dia:point val="16.9145,7.775"/>
+        <dia:point val="16.9145,7.5625"/>
+      </dia:attribute>
+      <dia:attribute name="orth_orient">
+        <dia:enum val="0"/>
+        <dia:enum val="1"/>
+        <dia:enum val="0"/>
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="autorouting">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>##</dia:string>
+      </dia:attribute>
+      <dia:attribute name="direction">
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="ends">
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O2" connection="4"/>
+        <dia:connection handle="1" to="O3" connection="0"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="UML - Association" version="1" id="O13">
+      <dia:attribute name="obj_pos">
+        <dia:point val="19.1849,9.5625"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="19.1349,6.46341;27.65,11.3625"/>
+      </dia:attribute>
+      <dia:attribute name="orth_points">
+        <dia:point val="19.1849,9.5625"/>
+        <dia:point val="19.1849,10.5625"/>
+        <dia:point val="23.3924,10.5625"/>
+        <dia:point val="23.3924,7.14591"/>
+        <dia:point val="27.6,7.14591"/>
+      </dia:attribute>
+      <dia:attribute name="orth_orient">
+        <dia:enum val="1"/>
+        <dia:enum val="0"/>
+        <dia:enum val="1"/>
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="autorouting">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>##</dia:string>
+      </dia:attribute>
+      <dia:attribute name="direction">
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="ends">
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+        <dia:composite>
+          <dia:attribute name="role">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="multiplicity">
+            <dia:string>#1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="arrow">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="aggregate">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O3" connection="6"/>
+        <dia:connection handle="1" to="O6" connection="7"/>
+      </dia:connections>
+    </dia:object>
+    <dia:group>
+      <dia:object type="Cisco - PC Card" version="0" id="O14">
+        <dia:attribute name="obj_pos">
+          <dia:point val="16.05,5.825"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="16.0311,5.82379;18.7748,7.2584"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="16.05,5.825"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="2.7235451667884121"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="1.4158987341772162"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#000000"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O15">
+        <dia:attribute name="obj_pos">
+          <dia:point val="19.05,6.525"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="19.05,5.9825;25.0525,6.9225"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#PIC Ethernet module#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="19.05,6.525"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:object type="Standard - Text" version="1" id="O16">
+      <dia:attribute name="obj_pos">
+        <dia:point val="2.1,-1.2125"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="2.1,-1.77206;7.78206,-0.780875"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Local Area Network#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="2.1,-1.2125"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="3"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:group>
+      <dia:object type="Cisco - Supercomputer" version="0" id="O17">
+        <dia:attribute name="obj_pos">
+          <dia:point val="15.45,-8.3375"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="15.44,-8.34729;19.2288,-5.04942"/>
+        </dia:attribute>
+        <dia:attribute name="elem_corner">
+          <dia:point val="15.45,-8.3375"/>
+        </dia:attribute>
+        <dia:attribute name="elem_width">
+          <dia:real val="3.7682886389850054"/>
+        </dia:attribute>
+        <dia:attribute name="elem_height">
+          <dia:real val="3.2785812844957345"/>
+        </dia:attribute>
+        <dia:attribute name="line_width">
+          <dia:real val="0.10000000000000001"/>
+        </dia:attribute>
+        <dia:attribute name="line_colour">
+          <dia:color val="#ffa500"/>
+        </dia:attribute>
+        <dia:attribute name="fill_colour">
+          <dia:color val="#ffffff"/>
+        </dia:attribute>
+        <dia:attribute name="show_background">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="line_style">
+          <dia:enum val="0"/>
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="flip_horizontal">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+        <dia:attribute name="flip_vertical">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:object>
+      <dia:object type="Standard - Text" version="1" id="O18">
+        <dia:attribute name="obj_pos">
+          <dia:point val="16.9,-3.7125"/>
+        </dia:attribute>
+        <dia:attribute name="obj_bb">
+          <dia:rectangle val="16.9,-4.27206;25.8446,-2.48087"/>
+        </dia:attribute>
+        <dia:attribute name="text">
+          <dia:composite type="text">
+            <dia:attribute name="string">
+              <dia:string>#Google Directions API
+Google Reverse geocoding API#</dia:string>
+            </dia:attribute>
+            <dia:attribute name="font">
+              <dia:font family="sans" style="0" name="Helvetica"/>
+            </dia:attribute>
+            <dia:attribute name="height">
+              <dia:real val="0.80000000000000004"/>
+            </dia:attribute>
+            <dia:attribute name="pos">
+              <dia:point val="16.9,-3.7125"/>
+            </dia:attribute>
+            <dia:attribute name="color">
+              <dia:color val="#000000"/>
+            </dia:attribute>
+            <dia:attribute name="alignment">
+              <dia:enum val="0"/>
+            </dia:attribute>
+          </dia:composite>
+        </dia:attribute>
+        <dia:attribute name="valign">
+          <dia:enum val="3"/>
+        </dia:attribute>
+      </dia:object>
+    </dia:group>
+    <dia:object type="Standard - Text" version="1" id="O19">
+      <dia:attribute name="obj_pos">
+        <dia:point val="9.2,-2"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="9.2,-2.55956;11.5346,-1.56837"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string>#Internet#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="font">
+            <dia:font family="sans" style="0" name="Helvetica"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="0.80000000000000004"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="9.2,-2"/>
+          </dia:attribute>
+          <dia:attribute name="color">
+            <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="0"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+      <dia:attribute name="valign">
+        <dia:enum val="3"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Cisco - Cloud Gold" version="0" id="O20">
+      <dia:attribute name="obj_pos">
+        <dia:point val="9.5,-8.45"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="9.4995,-8.4505;14.6005,-6.5495"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="9.5,-8.45"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="5.0999999999999996"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="1.8999999999999995"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="0"/>
+        <dia:real val="1"/>
+      </dia:attribute>
+      <dia:attribute name="flip_horizontal">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="flip_vertical">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Cisco - Cloud Gold" version="0" id="O21">
+      <dia:attribute name="obj_pos">
+        <dia:point val="19.8105,-8.2545"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="19.81,-8.255;24.911,-6.354"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="19.8105,-8.2545"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="5.0999999999999996"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="1.8999999999999995"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="0"/>
+        <dia:real val="1"/>
+      </dia:attribute>
+      <dia:attribute name="flip_horizontal">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="flip_vertical">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Cisco - Cloud Gold" version="0" id="O22">
+      <dia:attribute name="obj_pos">
+        <dia:point val="11.2205,-5.5595"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="11.22,-5.56;14.3005,-4.0995"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="11.2205,-5.5595"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="3.0794999999999995"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="1.4594999999999994"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000000000001"/>
+      </dia:attribute>
+      <dia:attribute name="line_colour">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="fill_colour">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+      <dia:attribute name="show_background">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="0"/>
+        <dia:real val="1"/>
+      </dia:attribute>
+      <dia:attribute name="flip_horizontal">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="flip_vertical">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+    </dia:object>
+  </dia:layer>
+</dia:diagram>

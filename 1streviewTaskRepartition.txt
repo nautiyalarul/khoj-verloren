@@ -1,0 +1,99 @@
+
+    Task distribution
+
+
+I will look after the microcontroller part
+
+
+
+
+
+    arul : electronic programming guy,
+    - work products : something resulting from a task
+         a set of web services to interface with google
+         code for the pic with:
+
+
+I will try to do the below code with u - (yellow area )
+
+
+               one module for gps control
+               one module for ether control
+
+
+
+
+               one module for gui interface
+                     one module(widget) for small keyboard buttons
+                     one module(widget) for selection menu to choose a location from bookmarks
+                     one module(widget) to show the current location estimated address name & numeric geo coords
+                     one module(widget) to say "please wait..." and to show later a set of directions
+
+
+these below doc i can do (yellow area )
+
+
+    code documentation for web services software
+          code documentation for eacg electronic module
+
+
+these below doc will be done by both us -  (pink area )
+
+
+          planning document
+          requirements/specification document
+          design document
+          final ppt document
+          final report document
+
+    - tasks: a thing/action do be done by each of the roles
+    ....
+
+    There are 6 engineering disciplines http://en.wikipedia.org/wiki/IBM_Rational_Unified_Process#Six_engineering_disciplines
+    each of those disciplines apply in each phase of the project. I would say this is a bit like roles above...
+
+
+
+    I think this is the task that we can share -
+
+
+
+
+    Business modeling discipline; => communicaton with Guillaume Jacquemin & PPT making + documents beautifyiing/layouts
+
+
+I will ask u to suggest me more in this -  ( as u know and done lot on API )
+
+    Requirements discipline => estimate what we want for the project if it's not to much or what.
+
+
+I will do it with u after the above Requirements discipline
+
+    Establish a well defined list of things that will be implemented/done and why not things that won't.
+
+
+I will do it
+
+    Analysis and design discipline => see how things should be designed using what technos.
+
+
+We will do it together
+
+    Implementation discipline => implement each part
+
+
+
+    Test discipline => unit test each part (techno) + check the docs.
+
+
+
+    Deployment discipline => deploy each part so it's deliverable/reusable/rebuildable by others.
+
+
+
+What u think ,
+
+I will come up with some idea ..in the next mail .
+
+arul
+
